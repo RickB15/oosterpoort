@@ -1,0 +1,22 @@
+Options -Indexes
+IndexOptions FancyIndexing
+IndexIgnore *.txt *.ico *.png *.jpg *.mp4 *.jason
+
+<files .htaccess>
+    order allow,deny
+    deny from all
+</files>
+
+RewriteEngine On
+
+RewriteCond $1 !^(index\.php|\.txt|images|js|css|favicon.png)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ ./index.php/$1 [NE,L]
+
+ErrorDocument 400 /application/errors/error-400.php
+ErrorDocument 401 /application/errors/error-401.php
+ErrorDocument 403 /application/errors/error-403.php
+ErrorDocument 404 /application/errors/error-404.php
+ErrorDocument 500 /application/errors/error-500.php

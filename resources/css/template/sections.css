@@ -1,0 +1,85 @@
+/* error pages */
+.section-error {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../img/backgrounds/default.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* sports page */
+.section-sport {
+  min-height: 100vh;
+}
+
+.section-sport#snow {
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../../img/backgrounds/public_pages/sports/snow.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-sport#skate {
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../../img/backgrounds/public_pages/sports/skate.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-sport#kite {
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../../img/backgrounds/public_pages/sports/kite.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-sport#wake {
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../../img/backgrounds/public_pages/sports/wake.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  background-position-x: right;
+}
+.section-sport#surf {
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../../img/backgrounds/public_pages/sports/surf.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-sport#party {
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../../img/backgrounds/public_pages/sports/party.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-contact {
+  min-height: 100vh;
+  overflow: hidden;
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(34, 34, 34, 0.5),rgba(34, 34, 34, 0.5)), url(../../img/backgrounds/public_pages/contact/contact.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-uit-contact {
+  min-height: 100vh;
+  overflow: hidden;
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(34, 34, 34, 0.85),rgba(34, 34, 34, 0.85)), url(../../img/backgrounds/public_pages/contact/contact_uit.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#modal-chairman .modal-content__full {
+  background-image: url(../../img/public_pages/board/chairman.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

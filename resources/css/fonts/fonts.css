@@ -1,0 +1,328 @@
+/* Exo_2 */
+@font-face {
+    font-family: 'Exo_2';
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../fonts/Exo_2/Exo_2-Regular.otf') format("opentype"); /* Adobe, Microsoft */
+    src: url('../../fonts/Exo_2/Exo_2-Regular.eot'); /* IE9 Compat Modes */
+    src: local('Exo 2'), local('Exo2-Regular'),
+         url('../../fonts/Exo_2/Exo_2-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/Exo_2/Exo_2-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../../fonts/Exo_2/Exo_2-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../../fonts/Exo_2/Exo_2-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../../fonts/Exo_2/Exo_2-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+    unicode-range: U+0-10FFFF;
+}
+@font-face {
+    font-family: 'Exo_2';
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: normal;
+    src: url('../../fonts/Exo_2/Exo_2-Italic.otf') format("opentype"); /* Adobe, Microsoft */
+    src: url('../../fonts/Exo_2/Exo_2-Italic.eot'); /* IE9 Compat Modes */
+    src: local('Exo 2 Italic'), local('Exo2-Italic'),
+         url('../../fonts/Exo_2/Exo_2-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/Exo_2/Exo_2-Italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../../fonts/Exo_2/Exo_2-Italic.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../../fonts/Exo_2/Exo_2-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../../fonts/Exo_2/Exo_2-Italic.svg#svgFontName') format('svg'); /* Legacy iOS */
+    unicode-range: U+0-10FFFF;
+}
+@font-face {
+    font-family: 'Exo_2';
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../fonts/Exo_2/Exo_2-Bold.otf') format("opentype"); /* Adobe, Microsoft */
+    src: url('../../fonts/Exo_2/Exo_2-Bold.eot'); /* IE9 Compat Modes */
+    src: local('Exo 2 Bold'), local('Exo2-Bold'),
+         url('../../fonts/Exo_2/Exo_2-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/Exo_2/Exo_2-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../../fonts/Exo_2/Exo_2-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../../fonts/Exo_2/Exo_2-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../../fonts/Exo_2/Exo_2-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */ 
+    unicode-range: U+0-10FFFF;
+}
+@font-face {
+    font-family: 'Exo_2';
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: bold;
+    src: url('../../fonts/Exo_2/Exo_2-BoldItalic.otf') format("opentype"); /* Adobe, Microsoft */
+    src: url('../../fonts/Exo_2/Exo_2-BoldItalic.eot'); /* IE9 Compat Modes */
+    src: local('Exo 2 Bold Italic'), local('Exo2-BoldItalic'),
+         url('../../fonts/Exo_2/Exo_2-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/Exo_2/Exo_2-BoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../../fonts/Exo_2/Exo_2-BoldItalic.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../../fonts/Exo_2/Exo_2-BoldItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../../fonts/Exo_2/Exo_2-BoldItalic.svg#svgFontName') format('svg'); /* Legacy iOS */ 
+    unicode-range: U+0-10FFFF;
+}
+@font-face {
+    font-family: 'Exo_2';
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../../fonts/Exo_2/Exo_2-Light.otf') format("opentype"); /* Adobe, Microsoft */
+    src: url('../../fonts/Exo_2/Exo_2-Light.eot'); /* IE9 Compat Modes */
+    src: local('Exo 2 Light'), local('Exo2-Light'),
+         url('../../fonts/Exo_2/Exo_2-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/Exo_2/Exo_2-Light.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../../fonts/Exo_2/Exo_2-Light.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../../fonts/Exo_2/Exo_2-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../../fonts/Exo_2/Exo_2-Light.svg#svgFontName') format('svg'); /* Legacy iOS */ 
+    unicode-range: U+0-10FFFF;
+}
+@font-face {
+    font-family: 'Exo_2';
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: 300;
+    src: url('../../fonts/Exo_2/Exo_2-LightItalic.otf') format("opentype"); /* Adobe, Microsoft */
+    src: url('../../fonts/Exo_2/Exo_2-LightItalic.eot'); /* IE9 Compat Modes */
+    src: local('Exo 2 Light Italic'), local('Exo2-LightItalic'),
+         url('../../fonts/Exo_2/Exo_2-LightItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/Exo_2/Exo_2-LightItalic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../../fonts/Exo_2/Exo_2-LightItalic.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../../fonts/Exo_2/Exo_2-LightItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../../fonts/Exo_2/Exo_2-LightItalic.svg#svgFontName') format('svg'); /* Legacy iOS */ 
+    unicode-range: U+0-10FFFF;
+}
+
+/* Lane */
+@font-face {
+    font-family: 'Lane';
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../fonts/Lane/Lane-Regular.ttf') format('truetype'), /* Safari, Android, iOS */;
+    unicode-range: U+0-10FFFF;
+}
+
+/* Louis George Caf */
+@font-face {
+    font-family: 'Louis George Caf';
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../fonts/Louis_George_Caf/Louis_George_Caf-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+    unicode-range: U+0-10FFFF;
+}
+@font-face {
+    font-family: 'Louis George Caf';
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: normal;
+    src: url('../../fonts/Louis_George_Caf/Louis_George_Caf-Italic.ttf') format('truetype'); /* Safari, Android, iOS */
+    unicode-range: U+0-10FFFF;
+}
+@font-face {
+    font-family: 'Louis George Caf';
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../fonts/Louis_George_Caf/Louis_George_Caf-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+    unicode-range: U+0-10FFFF;
+}
+@font-face {
+    font-family: 'Louis George Caf';
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: bold;
+    src: url('../../fonts/Louis_George_Caf/Louis_George_Caf-BoldItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+    unicode-range: U+0-10FFFF;
+}
+@font-face {
+    font-family: 'Louis George Caf';
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../../fonts/Louis_George_Caf/Louis_George_Caf-Light.ttf') format('truetype'); /* Safari, Android, iOS */
+    unicode-range: U+0-10FFFF;
+}
+@font-face {
+    font-family: 'Louis George Caf';
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: 300;
+    src: url('../../fonts/Louis_George_Caf/Louis_George_Caf-LightItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+    unicode-range: U+0-10FFFF;
+}
+
+/* Modern Sans */
+@font-face {
+    font-family: 'Modern Sans';
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../fonts/Modern_Sans/Modern_Sans-Regular.otf') format("opentype"); /* Adobe, Microsoft */
+    unicode-range: U+0-10FFFF;
+}
+
+/* Quicksand */
+@font-face {
+    font-family: 'Quicksand';
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../fonts/Quicksand/Quicksand-Regular.otf') format("opentype"); /* Adobe, Microsoft */
+    src: url('../../fonts/Quicksand/Quicksand-Regular.eot'); /* IE9 Compat Modes */
+    src: local('Quicksand Regular'), local('Quicksand-Regular'),
+         url('../../fonts/Quicksand/Quicksand-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/Quicksand/Quicksand-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../../fonts/Quicksand/Quicksand-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../../fonts/Quicksand/Quicksand-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../../fonts/Quicksand/Quicksand-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+    unicode-range: U+0-10FFFF;
+}
+@font-face {
+    font-family: 'Quicksand';
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: normal;
+    src: url('../../fonts/Quicksand/Quicksand-Italic.otf') format("opentype"); /* Adobe, Microsoft */
+    unicode-range: U+0-10FFFF;
+}
+@font-face {
+    font-family: 'Quicksand';
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../fonts/Quicksand/Quicksand-Bold.otf') format("opentype"); /* Adobe, Microsoft */
+    src: url('../../fonts/Quicksand/Quicksand-Bold.eot'); /* IE9 Compat Modes */
+    src: local('Quicksand Bold'), local('Quicksand-Bold'),
+         url('../../fonts/Quicksand/Quicksand-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/Quicksand/Quicksand-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../../fonts/Quicksand/Quicksand-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../../fonts/Quicksand/Quicksand-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../../fonts/Quicksand/Quicksand-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+    unicode-range: U+0-10FFFF;
+}
+@font-face {
+    font-family: 'Quicksand';
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: bold;
+    src: url('../../fonts/Quicksand/Quicksand-BoldItalic.otf') format("opentype"); /* Adobe, Microsoft */
+    unicode-range: U+0-10FFFF;
+}
+@font-face {
+    font-family: 'Quicksand';
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../../fonts/Quicksand/Quicksand-Light.otf') format("opentype"); /* Adobe, Microsoft */
+    src: url('../../fonts/Quicksand/Quicksand-Light.eot'); /* IE9 Compat Modes */
+    src: local('Quicksand Light'), local('Quicksand-Light'),
+         url('../../fonts/Quicksand/Quicksand-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/Quicksand/Quicksand-Light.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../../fonts/Quicksand/Quicksand-Light.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../../fonts/Quicksand/Quicksand-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../../fonts/Quicksand/Quicksand-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+    unicode-range: U+0-10FFFF;
+}
+@font-face {
+    font-family: 'Quicksand';
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: 300;
+    src: url('../../fonts/Quicksand/Quicksand-LightItalic.otf') format("opentype"); /* Adobe, Microsoft */
+    unicode-range: U+0-10FFFF;
+}
+
+/* Renner */
+@font-face {
+    font-family: 'Renner';
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../fonts/Renner/Renner-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+    unicode-range: U+0-10FFFF;
+}
+
+/* Roboto */
+@font-face {
+    font-family: 'Roboto';
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../fonts/Roboto/Roboto-Regular.eot'); /* IE9 Compat Modes */
+    src: local('Roboto'), local('Roboto-Regular'),
+         url('../../fonts/Roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/Roboto/Roboto-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../../fonts/Roboto/Roboto-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../../fonts/Roboto/Roboto-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../../fonts/Roboto/Roboto-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+    unicode-range: U+0-10FFFF;
+}
+@font-face {
+    font-family: 'Roboto';
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: normal;
+    src: url('../../fonts/Roboto/Roboto-Italic.eot'); /* IE9 Compat Modes */
+    src: local('Roboto Italic'), local('Roboto-Italic'),
+         url('../../fonts/Roboto/Roboto-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/Roboto/Roboto-Italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../../fonts/Roboto/Roboto-Italic.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../../fonts/Roboto/Roboto-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../../fonts/Roboto/Roboto-Italic.svg#svgFontName') format('svg'); /* Legacy iOS */
+    unicode-range: U+0-10FFFF;
+}
+@font-face {
+    font-family: 'Roboto';
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../fonts/Roboto/Roboto-Bold.eot'); /* IE9 Compat Modes */
+    src: local('Roboto Bold'), local('Roboto-Bold'),
+         url('../../fonts/Roboto/Roboto-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/Roboto/Roboto-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../../fonts/Roboto/Roboto-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../../fonts/Roboto/Roboto-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../../fonts/Roboto/Roboto-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */ 
+    unicode-range: U+0-10FFFF;
+}
+@font-face {
+    font-family: 'Roboto';
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: bold;
+    src: url('../../fonts/Roboto/Roboto-BoldItalic.eot'); /* IE9 Compat Modes */
+    src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'),
+         url('../../fonts/Roboto/Roboto-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/Roboto/Roboto-BoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../../fonts/Roboto/Roboto-BoldItalic.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../../fonts/Roboto/Roboto-BoldItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../../fonts/Roboto/Roboto-BoldItalic.svg#svgFontName') format('svg'); /* Legacy iOS */ 
+    unicode-range: U+0-10FFFF;
+}
+@font-face {
+    font-family: 'Roboto';
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../../fonts/Roboto/Roboto-Light.eot'); /* IE9 Compat Modes */
+    src: local('Roboto Light'), local('Roboto-Light'),
+         url('../../fonts/Roboto/Roboto-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/Roboto/Roboto-Light.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../../fonts/Roboto/Roboto-Light.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../../fonts/Roboto/Roboto-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../../fonts/Roboto/Roboto-Light.svg#svgFontName') format('svg'); /* Legacy iOS */ 
+    unicode-range: U+0-10FFFF;
+}
+@font-face {
+    font-family: 'Roboto';
+    font-stretch: normal;
+    font-style: italic;
+    font-weight: 300;
+    src: url('../../fonts/Roboto/Roboto-LightItalic.eot'); /* IE9 Compat Modes */
+    src: local('Roboto Light Italic'), local('Roboto-LightItalic'),
+         url('../../fonts/Roboto/Roboto-LightItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../fonts/Roboto/Roboto-LightItalic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../../fonts/Roboto/Roboto-LightItalic.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../../fonts/Roboto/Roboto-LightItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../../fonts/Roboto/Roboto-LightItalic.svg#svgFontName') format('svg'); /* Legacy iOS */ 
+    unicode-range: U+0-10FFFF;
+}
