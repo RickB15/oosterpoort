@@ -259,12 +259,15 @@ nav ul {
   margin: 0;
   position: absolute;
   z-index: 1;
+  top: 0;
+  margin-top: 20px;
 }
 
 .nav-menu {
-  margin: 10px 0;
-  background-color: rgba(46,46,46,1);
+  margin-top: 10px;
+  background-color: var(--black-color) !important;
   padding: 2px 0;
+  width: 100% !important;
 }
 
 .nav-menu li:hover {
@@ -284,9 +287,6 @@ nav ul {
 }
 
 @media(min-width: 992px) {
-  nav {
-    max-height: 100px;
-  }
   nav a {
     cursor: pointer;
   }
@@ -313,11 +313,13 @@ nav ul {
 
   .nav-content {
     display: inline-block;
-    padding-top: 5px;
     padding-bottom: 8px;
     width: auto;
     background-color: unset;
     background: unset;
+  }
+  .nav-content:not(.nav-menu) {
+    padding-top: 15px;
   }
 
   .collapse {

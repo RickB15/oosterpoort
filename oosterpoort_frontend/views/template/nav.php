@@ -1,9 +1,15 @@
 <?php if(!defined('BASEPATH'))exit('No direct script access allowed'); ?>
-<nav id="navbar" class="navbar fixed">
+<nav id="navbar" class="navbar navbar-extend fixed">
+	<ul class="nav-extras">
+		<div class="translate-toggle">
+			<a class="extra-item"><span class="language-img language-img__nl"></span><li class="toggle-translate__text"><small>NL</small></li></a>
+			<a class="extra-item"><span class="language-img language-img__en"></span><li class="toggle-translate__text"><small>EN</small></li></a>
+		</div>
+	</ul>
 	<ul class="nav-logo pull-left">
 		<li class="nav-item logo">
 			<a href="<?php echo base_url(); ?>">
-		    	<img id="logo-img" class="logo-img hidden-sm hidden-md hidden-lg" src="<?php echo base_url(); ?>resources/img/logos/oosterpoort_logo.png" alt="Oosterpoort">
+		    	<img id="logo-img" class="logo-img" src="<?php echo base_url(); ?>resources/img/logos/oosterpoort_logo.png" alt="Oosterpoort">
 			</a>
 		</li>
 	</ul>
@@ -19,11 +25,6 @@
 				<span class="icon"><i class="fa fa-search fa-sm"></i></span>
 				<input class="searchbox-input" type="text" name="nav-searchbox" placeholder="Zoeken...">
 			</div>
-		</li>
-		<li class="nav-item language">
-			<a class="dutch"><small>NL</small></a>
-			<small class="line">/</small>
-			<a class="english"><small>EN</small></a>
 		</li>
 		<a class="page-scroll nav-item" href="<?php echo base_url(); ?>register"><li class="nav-item__text">Registreren</li></a>
 		<a class="page-scroll nav-item" href="<?php echo base_url(); ?>login"><li class="nav-item__text">Login</li></a>
